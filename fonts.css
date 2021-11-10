@@ -1,0 +1,55 @@
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overpassmono { 
+    font-family: 'Overpass Mono', monospace;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.overpassmono_18px {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 18px;
+    
+}
+
+.overpassmono_fnt { 
+    font-family: 'Overpass Mono', monospace;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 170%;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight:700; 
+    margin-bottom: 30px; 
+}
+
+.secao {
+    font-size: 80px;
+    font-weight:700; 
+    margin-bottom: 8px; 
+}
+
+.submit {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.big {
+    font-size: 110px;
+}
+
+.marcatexto {
+    box-shadow: 15px 0 0 0 rgb(223, 220, 43), -5px 1 1 0 rgb(223, 220, 43);
+    background: rgb(223, 220, 43);
+    display: inline;
+    position: relative;
+    padding: 3px;
+}

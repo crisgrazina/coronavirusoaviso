@@ -1,0 +1,10 @@
+
+
+@media (max-width: 1600px) {
+
+    .conteudo_recado {
+        flex-direction: column;
+        margin: 0 20%;
+    }
+    
+}

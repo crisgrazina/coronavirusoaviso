@@ -1,0 +1,256 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+.degradacao {
+    margin: 100px 0;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.foto_degradacao { 
+    width: 50%;
+    background-image: url(./imgs/fotodegradacao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.black_board_degradacao {
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.importancia_do_brasil {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto_importancia {
+    width: 40%;   
+    margin-top: 70px;
+}
+
+.texto_importancia_adjust {
+    margin-left: 30%;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    
+}
+
+.texto_importancia_adjust_titulo {
+    margin-left: 20%;
+    border: 2px solid;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-right: none;
+}
+
+.box_preta {
+    width: 150px;
+    height: 8px;
+    background: black;
+    position: relative;
+    bottom: 20px;
+    left: -10px;
+}
+
+.foto_importancia {
+    background-image: url(./imgs/fotoimportanciabrasil.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60%;
+}
+
+.intro_autores {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.full {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container_biografia {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.foto_rogerio {
+    width: 450px;
+    height: 450px;
+    background-image: url(./imgs/fotorogerio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto_paulo {
+    width: 450px;
+    height: 450px;
+    background-image: url(./imgs/fotopauloanselmo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.foto_crisgrazina {
+    width: 450px;
+    height: 450px;
+    background-image: url(./imgs/fotocrisgrazina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.biografia {
+    width: 550px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.bolinha_preta {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.flex_direction_row { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.container_download {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15%;
+
+}
+
+.download_livro {
+    margin: 100px 0;
+}
+
+.capa_livro {
+    width: 50%;
+    background-image: url(./imgs/capa_livro.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto_livro {
+    width: 60%;
+    margin: 100px 0;
+}
+
+.button_download {
+    padding: 14px 20px;
+    border: none;
+    background: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.button_download:hover {
+    background: rgb(2, 102, 2);
+}
+
+.box_preta_download {
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 30px 0;
+    padding: 30px;
+}
+
+.container_form {
+    width: 100%;
+    margin: 0 20%;
+    
+    
+}
+
+input[type= text],input[type= number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+}
+
+input[type= submit] {
+    padding: 14px 20px;
+    border: none;
+    background: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+
+input[type= submit]:hover {
+    background: rgb(2, 102, 2);
+    
+}
+
+.adjust_form {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro_recado {
+    flex-direction: column;
+}
+
+.conteudo_recado {
+    padding: 100px 0;
+    flex-direction:row;
+    margin: 0px 20%;
+}
+
+.fotorogerio {
+    background-image: url(./imgs/fotorogerio2.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 50%;
+    background-position: center;
+}
+
+.container_ajuste { 
+    width: 50%;
+    padding: 30px;
+}
